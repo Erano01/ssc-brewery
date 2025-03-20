@@ -17,10 +17,7 @@
 package guru.sfg.brewery.domain;
 
 import guru.sfg.brewery.web.model.BeerStyleEnum;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
